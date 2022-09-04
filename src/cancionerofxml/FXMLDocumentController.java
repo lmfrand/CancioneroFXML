@@ -5,29 +5,34 @@
  */
 package cancionerofxml;
 
+import java.awt.Image;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
+import javafx.scene.control.Button;
 
 /**
+ * FXML Controller class
  *
  * @author LuisMiguel
  */
 public class FXMLDocumentController implements Initializable {
+
     
-    private Label label;
     
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
+    @FXML
+    private Button botonPrueba;
     
+    
+    
+    /**
+     * Initializes the controller class.
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
+
     }    
     
 }
